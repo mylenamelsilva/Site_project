@@ -1,0 +1,308 @@
+@charset "UTF-8";
+
+header{
+    margin: 0;
+    color: white;
+    text-align: center;
+    background-color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: #14181C;
+    text-align: center;
+}
+
+header a{
+    font-family: 'Readex Pro', sans-serif;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+header a:hover{
+    color:#5ea7f0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.164);
+}
+
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+.inicio{
+    background-color: #14181C;
+}
+.imagem{
+    width: 290px;
+    height: 100px;
+    background-position: right right;
+}
+
+#logo{
+    background-image: url('images/logo.png');
+    background-size: 290px 100px;
+    margin: auto;
+}
+
+.título{
+    margin-top: 50px;
+    font-family: 'Readex Pro', sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.164);
+}
+
+.título2{
+    margin-top: 200px;
+    width: 1010px;
+    height: 200px;
+    margin: auto;
+    background-position: right right;
+    background-image: url(images/conteudo_oqeinovacao.png);
+}
+
+.título3{
+    margin-top: 200px;
+    width: 1010px;
+    height: 200px;
+    margin: auto;
+    background-position: right right;
+    background-image: url(images/conteudo_comoseclassificam.png);
+}
+
+.título4{
+    margin-top: 200px;
+    width: 1010px;
+    height: 200px;
+    margin: auto;
+    background-position: right right;
+    background-image: url(images/conteudo_comoinovar.png);
+}
+
+.título5{
+    margin-top: 200px;
+    width: 1010px;
+    height: 200px;
+    margin: auto;
+    background-position: right right;
+    background-image: url(images/conteudo_sujeitoinovador.png)
+}
+
+.título6{
+    margin-top: 200px;
+    width: 1010px;
+    height: 200px;
+    margin: auto;
+    background-position: right right;
+    background-image: url(images/conteudo_ambiente.png);
+}
+
+.título7{
+    margin-top: 200px;
+    width: 1010px;
+    height: 200px;
+    margin: auto;
+    background-position: right right;
+    background-image: url(images/conteudo_empresas.png);
+}
+
+.título8{
+    margin-top: 200px;
+    width: 1010px;
+    height: 200px;
+    margin: auto;
+    background-position: right right;
+    background-image: url(images/conteudo_recursos.png);
+}
+
+.lista{
+    font-family: 'Readex Pro', sans-serif;
+    color: #14181C;
+    font-size: 16px;
+    text-align:left;
+    font-weight: 100;
+    margin: auto;
+    line-height: 2em;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+.sobre{
+    font-family: 'Readex Pro', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align:justify;
+    font-weight: 100;
+    margin: auto;
+    line-height: 2em;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+
+
+.texto{
+    font-family: 'Readex Pro', sans-serif;
+    color: #14181C;
+    font-size: 16px;
+    text-align:left;
+    font-weight: 100;
+    margin: auto;
+    text-indent: 20px;
+    line-height: 2em;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+.citação{
+    font-family: 'Readex Pro', sans-serif;
+    color: #14181C;
+    font-size: 16px;
+    text-align:justify;
+    font-weight: 100;
+    margin: auto;
+    line-height: 2em;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+.subtítulo{
+    font-family: 'Readex Pro', sans-serif;
+    color: #14181C;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.164);
+}
+
+.figura1{
+    width: 500px;
+    height: 220px;
+    background-position: right right;
+}
+
+#fig1{
+    background-image: url(images/invencaoxinovacao.png);
+    margin: auto;
+}
+
+.figura2{
+    width: 330px;
+    height: 300px;
+    background-position: right right;
+    margin: auto;
+
+}
+
+#fig2{
+    background-image: url(images/tiposinovacao.png);
+    float: left;
+    margin: auto;
+    padding: 20px;
+    margin-left: 120px;
+    background-size: 400px 360px;
+}
+
+.figtext{
+    font-family: 'Readex Pro', sans-serif;
+    color: #14181C;
+    font-size: 16px;
+    text-align:left;
+    font-weight: 100;
+    margin: auto;
+    line-height: 2em;
+    min-width: 300px;
+    max-width: 1000px;
+}
+
+.referencias{
+    font-family: 'Readex Pro', sans-serif;
+    color: #14181C;
+    text-align: justify;
+}
+
+.rodape{
+    font-family: 'Readex Pro', sans-serif;
+    color: #14181C;
+    text-decoration: none;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.o-que-é-inovação{
+    width: 1220px;
+    height: 200px;
+    background-image: url(images/O\ que\ é\ inovação-IMG1.png);
+    border: 1px solid #14181C ;
+    max-width: 100%;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.como-se-classificam-as-inovações{
+    width: 800px;
+    height: 200px;
+    background-image: url(images/Como\ se\ classificam\ as\ inovações-IMG2.png);
+    border: 1px solid #14181C ;
+    max-width: 100%;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.como-inovar{
+    width: 400px;
+    height: 200px;
+    background-image: url(images/Como\ inovar-IMG3.png);
+    border: 1px solid black ;
+    max-width: 100%;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.o-que-caracteriza-um-sujeito-inovador{
+    width: 600px;
+    height: 210px;
+    background-image: url(images/O\ que\ caracteriza\ um\ sujeito\ inovador-IMG4.png);
+    border: 1px solid black ;
+    max-width: 100%;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.o-ambiente-afeta-a-inovação{
+    width: 600px;
+    height: 210px;
+    background-image: url(images/O\ ambiente\ afeta\ a\ inovação_IMG5.png);
+    border: 1px solid black ;
+    max-width: 100%;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.por-que-as-empresas-inovam{
+    width: 400px;
+    height: 200px;
+    background-image: url(images/Por\ que\ as\ empresas\ inovam-IMG6.png);
+    border: 1px solid black ;
+    max-width: 100%;
+    margin: 8px;
+    border-radius: 10px;
+}
+
+.como-captar-recursos-para-inovações{
+    width: 800px;
+    height: 200px;
+    background-image: url(images/como\ captar\ recursos\ para\ inovações_IMG7.png);
+    border: 1px solid black ;
+    max-width: 100%;
+    margin: 8px;
+    border-radius: 10px;
+}

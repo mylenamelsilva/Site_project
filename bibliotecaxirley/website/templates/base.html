@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}" type="image/x-icon">
+
+    <title>{% block title %}Biblioteca Xirley{% endblock %}</title>
+
+  </head>
+  <header>
+
+    <div class="imagem" id="logo"> </div>
+
+    <h3>
+        <a class="acervo" id="acervo" href="/acervo">Acervo</a>
+        |
+        <a class="sobre" id="sobre" href="/sobre">Sobre</a>
+    </h3>
+
+
+  </header>
+  <body class="inicio">
+      <div class="container">
+
+        <a class="pg2" id="pg2" href="/o-que-é-inovação">
+          <div class="o-que-é-inovação"></div>
+        </a>
+
+        <a class="pg3" id="pg3" href="/como-se-classificam-as-inovações">
+          <div class="como-se-classificam-as-inovações"></div>
+        </a>
+
+        <a class="pg4" id="pg4" href="/como-inovar">
+          <div class="como-inovar"></div>
+        </a>
+
+        <a class="pg5" id="pg5" href="/o-que-caracteriza-um-sujeito-inovador">
+          <div class="o-que-caracteriza-um-sujeito-inovador"></div>
+        </a>
+
+        <a class="pg6" id="pg6" href="/o-ambiente-afeta-a-inovação">
+          <div class="o-ambiente-afeta-a-inovação"></div>
+        </a>
+
+        <a class="pg7" id="pg7" href="/por-que-as-empresas-inovam">
+          <div class="por-que-as-empresas-inovam"></div>
+        </a>
+
+        <a class="pg8" id="pg8" href="/como-captar-recursos-para-inovações">
+          <div class="como-captar-recursos-para-inovações]"></div>
+        </a>
+        
+      </div>
+          <br>
+
+      <footer class="rodape">
+          Todos os direitos reservados. 2021
+      </footer>
+    
+  </body>
+</html>
